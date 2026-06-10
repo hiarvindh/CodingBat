@@ -126,11 +126,11 @@ python [module_name].py
 
 ## Author
 <p align="center">
-  <img src="https://github.com/tun67213.png" width="120" />
+  <img src="https://github.com/hiarvindh.png" width="120" />
   <br/>
   <b>Arvindh Velrajan</b>
   <br/>
   <i>CodingBat Practice Repository</i>
   <br/>
-  <a href="https://github.com/tun67213">@tun67213</a>
+  <a href="https://github.com/hiarvindh">@tun67213</a>
 </p>
