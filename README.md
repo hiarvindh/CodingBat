@@ -132,5 +132,5 @@ python [module_name].py
   <br/>
   <i>CodingBat Practice Repository</i>
   <br/>
-  <a href="https://github.com/hiarvindh">@tun67213</a>
+  <a href="https://github.com/hiarvindh">Arvindh Velrajan</a>
 </p>
