@@ -4,7 +4,7 @@
 1. [Project Overview](#project-overview)
 2. [Solution Index](#solution-index)
 3. [Project Structure](#project-structure)
-4. [How to Compile and Run](#how-to-compile-and-run)
+4. [Setup and Run](#setup-and-run)
    - [Java](#java)
    - [Python](#python)
 5. [Author](#author)
@@ -55,7 +55,7 @@ cd CodingBat
 ### Option B: Using GitHub Desktop
 (Note: if GitHub Desktop is not installed, you can download it [here](https://desktop.github.com/download/).)
 
-1. Open the GitHub repository: [https://github.com/tun67213/CodingBat]
+1. Open the GitHub repository: [CodingBat Repository](https://github.com/tun67213/CodingBat)
 2. Click the "<> Code" button
 3. Ensure that "Local" is selected
 4. Do the following:
@@ -65,37 +65,63 @@ cd CodingBat
 6. Once completed, the repository will be available on your local device.
 7. You can now proceed to the steps below.
 
-### Java
+### Compile and Run
+
+#### First step
+As a first step, run the following command to get into the repository containing all implementations for both Python and Java:
+```bash
+cd CodingBat/src
+```
+
+#### Java
 Compile and run the Java implementations:
 
 ```bash
-cd CodingBat/src/Java
-javac Main.java
-java Main
+cd Java
+javac src/Main.java
+java src.Main
 ```
 
 ---
 
-### Python
+#### Python
 Run the Python implementations:
 
-To run all Python related implementations:
+If you were previously running Java code and are currently inside `CodingBat/src/Java`, run the following before moving on:
+```bash
+cd ..
+```
+
+To run all Python-related implementations from CodingBat/src:
 ```bash
 cd Python
 python3 Main.py
 ```
 
-To run module-specific implementations, add the file name after python3 (the following shows how to run Warmup-1 methods):
+Alternatively, to run a module-specific implementation from `CodingBat/src`, add the file name after `python3`. The following shows how to run Warmup-1 methods:
+
 ```bash
 cd Python
 python3 Warmup_1.py
 ```
 
+The general rule of thumb for running module-specific code in Python is as follows:
+```bash
+cd Python
+python3 [module_name].py
+```
+where you would replace [module_name] with the specific module's name.
+
 For Windows users:
 
-If the system does not recognize `python3`, use the command below:
+If the system does not recognize `python3`, use `python` instead:
+If not already in the Python repository:
 ```bash
-python Main.py
+cd Python
+```
+Otherwise:
+```bash
+python [module_name].py
 ```
 
 ## Author
